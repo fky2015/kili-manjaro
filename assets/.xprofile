@@ -1,0 +1,14 @@
+#!/bin/sh
+#
+# execute by gdm
+#
+# should be placed in ~/.xprofile
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+
+export XIM_PROGRAM=fcitx
+export XIM=fcitx
+
+export LANG=zh_CN.UTF-8
+# export LC_ALL="zh_CN.UTF-8"
