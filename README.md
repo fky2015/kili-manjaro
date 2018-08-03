@@ -30,19 +30,19 @@ kili-manjaro 是一个bash脚本， 试图延续manjaro乐于简单的哲学，�
 ## Installation list
 
 
-- [ ] 源配置
+- [x] 源配置
 - [ ] aurhelper-?
-- [ ] pip源
-- [ ] blackarch
-- [ ] fcitx
-- [ ] oh-my-zsh
-- [ ] deepin.com.qq.office
-- [ ] wewechat
+- [x] pip源
+- [x] blackarch
+- [x] fcitx
+- [x] oh-my-zsh
+- [x] deepin.com.qq.office
+- [x] wewechat
 - [ ] tldr
 - [ ] htop
 - [ ] keyring?
 - [ ] wine
-- [ ] 环境变量
+- [x] 环境变量
 
 <!-- Contributing -->
 
