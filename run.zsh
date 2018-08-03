@@ -70,10 +70,13 @@ welcome(){
 }
 # code start run
 
-init 
-replace_source
-install_oh_my_zsh
-install_fcitx
-install_wechat
-install_tim
+main() {
+    init 
+    replace_source
+    install_oh_my_zsh
+    install_fcitx
+    install_wechat
+    install_tim
+}
 
+main 3>/dev/stdout &>install.log
