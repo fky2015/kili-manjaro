@@ -21,7 +21,7 @@ replace_source(){
 
     # 升级系统, 安装 archlinuxcn-keyring
     sudo pacman -Syu --noconfirm --needed --force
-    sudo pacman -S archlinuxcn-keyring --noconfirm
+    sudo pacman -S archlinuxcn-keyring git python-pip --noconfirm
 
     # pip 源
     pip config set global.index-url 'https://mirrors.ustc.edu.cn/pypi/web/simple'
